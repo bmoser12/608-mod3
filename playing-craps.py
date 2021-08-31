@@ -51,3 +51,5 @@ print(f'{9:>4}{frequency9:>13}')
 print(f'{10:>4}{frequency10:>13}')
 print(f'{11:>4}{frequency11:>13}')
 print(f'{12:>4}{frequency12:>13}')
+
+print('Craps:',sum(frequency2,frequency3,frequency12)/6,000,000))
