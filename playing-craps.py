@@ -53,4 +53,4 @@ print(f'{11:>4}{frequency11:>13}')
 print(f'{12:>4}{frequency12:>13}')
 
 craps=(frequency2,frequency3,frequency12)
-print('Craps:',sum(craps)/6,000,000)
+print('Craps:',sum((craps)/6,000,000)*100)
