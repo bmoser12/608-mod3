@@ -52,6 +52,8 @@ print(f'{10:>4}{frequency10:>13}')
 print(f'{11:>4}{frequency11:>13}')
 print(f'{12:>4}{frequency12:>13}')
 
-craps=[frequency2,frequency3,frequency12]
-craps_percentage = sum(craps)/6,000,000
-print('Craps:', craps_percentage*100)
+craps= frequency2+frequency3+frequency12
+win = frequency7+frequency11
+trials = 6_000_000
+print('Craps:', craps/trials)
+print('Wins:', win/trials)
