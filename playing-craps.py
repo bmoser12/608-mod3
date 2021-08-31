@@ -16,27 +16,27 @@ for roll in range(6_000_000):
   face = random.randrange(1,7) +random.randrange(1,7)
   if face == 1:
     frequency1 +=1
-   elif face == 2:
+  elif face == 2:
     frequency2 +=1
-   elif face == 3:
+  elif face == 3:
     frequency3 +=1
-   elif face == 4:
+  elif face == 4:
     frequency4 +=1
-   elif face == 5:
+  elif face == 5:
     frequency5 += 1
-   elif face == 6:
+  elif face == 6:
     frequency6 +=1
-   elif face == 7:
+  elif face == 7:
     frequency7 += 1
-   elif face == 8:
+  elif face == 8:
     frequency8 += 1
-   elif face ==9:
+  elif face ==9:
     frequency9 += 1
-   elif face == 10:
+  elif face == 10:
     frequency10 +=1
-   elif face == 11:
+  elif face == 11:
     frequency11 += 1
-   elif face == 12:
+  elif face == 12:
     frequency12+= 1
 print(f'Face{"Frequency":>13')
 print(f'{1:>4}{frequency1:>13}')
